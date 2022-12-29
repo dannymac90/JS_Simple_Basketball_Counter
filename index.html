@@ -1,14 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/style.css">
-    <title>Basketball Scoreboard</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
     
-<script src="/assets/js/script.js"></script>
-</body>
+    <title>Basketball Scoreboard</title>
+  </head>
+  <body>
+    <div class="background">
+      <div class="container row">
+        <div class="hero__title column">
+          <h3>HOME</h3>
+          <div class="score__container">
+            <p id="score__el--home">5</p>
+          </div>
+          <div class="score__buttons">
+            <button id="home__btn--1">+1</button>
+            <button id="home__btn--2">+2</button>
+            <button id="home__btn--3">+3</button>
+          </div>
+        </div>
+        <div class="hero__title column">
+          <h3>GUEST</h3>
+          <div class="score__container">
+            <p id="score__el--guest">3</p>
+          </div>
+          <div class="score__buttons">
+            <button id="away__btn--1">+1</button>
+            <button id="away__btn--2">+2</button>
+            <button id="away__btn--3">+3</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="/assets/js/script.js"></script>
+    
+  </body>
 </html>
