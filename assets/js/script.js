@@ -44,4 +44,7 @@ function resetScores () {
     displayAwayScore.textContent = 0
 
     displayHomeScore.textContent = 0
+
+    homeCount = 0;
+    awayCount = 0;
 }
