@@ -18,7 +18,7 @@ body {
 
 .container {
   /* border: 3px solid red; */
-  width: min(800px, 60%);
+  width: min(800px, 100%);
   margin: 0 auto;
   padding: 3rem;
 }
@@ -43,6 +43,7 @@ body {
     color: #da1421;
     margin-top: 0.1em;
     width: 2em;
+    margin: 0 auto;
 }
 
 .score__buttons {
@@ -59,9 +60,10 @@ body {
 }
 
 #reset__container {
-    margin: 0 auto;
-    text-align: center;
-    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
 .score__btn--new-game {
@@ -76,7 +78,7 @@ body {
 }
 
 .prev-scores__container {
-    width: 40%;
+    width: min(525px, 60%);
     margin: 0 auto;
     text-align: center;
     margin-top: 10em;
@@ -92,6 +94,12 @@ body {
 
 #prev-scores__el {
     font-size: 1.1rem;
+}
+
+@media (max-width: 578px) {
+    .row {
+        gap: 2.5em;
+    }
 }
 
 
