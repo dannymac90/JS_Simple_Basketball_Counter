@@ -58,4 +58,10 @@ button {
    cursor: pointer;
 }
 
+#button__container {
+    margin: 0 auto;
+    text-align: center;
+    width: 10%;
+}
+
 
