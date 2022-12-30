@@ -61,7 +61,7 @@ body {
 #reset__container {
     margin: 0 auto;
     text-align: center;
-    width: 10%;
+    width: 15%;
 }
 
 .score__btn--reset {
@@ -70,17 +70,22 @@ body {
 }
 
 .prev-scores__container {
-    width: 50%;
+    width: 40%;
     margin: 0 auto;
     text-align: center;
-    border: 3px red solid;
-    margin-top: 3em;
+    margin-top: 10em;
     color: white;
+    background-color: #19203e;
+    padding: 2em;
 }
 
 .prev-scores__title {
     font-size: 1.3rem;
     font-weight: 400;
+}
+
+#prev-scores__el {
+    font-size: 1.1rem;
 }
 
 
