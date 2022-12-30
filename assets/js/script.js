@@ -56,3 +56,17 @@ function resetScores () {
     homeCount = 0;
     awayCount = 0;
 }
+
+// Resets entire board and prev scores
+function resetScoreBoard() {
+  // Reset counters
+  displayAwayScore.textContent = 0;
+  displayHomeScore.textContent = 0;
+
+  // Reset Count
+  homeCount = 0;
+    awayCount = 0;
+    
+// Reset previous scores
+    prevScoresEl.textContent = " "
+}
