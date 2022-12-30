@@ -1,6 +1,8 @@
 // Declare Display Variables
 let displayHomeScore = document.getElementById("score__el--home") 
 let displayAwayScore = document.getElementById("score__el--guest")
+let prevScoresEl = document.getElementById("prev-scores__el")
+
 
 // Score variables
 let homeCount = 0
@@ -38,13 +40,19 @@ function awayPlusThree() {
   displayAwayScore.textContent = awayCount;
 }
 
-// New Game function to reset scores
-
+// New Game function to reset and save scores
 function resetScores () {
+   //  Declare variable for string  
+    let prevScoreStr = homeCount + "-" + awayCount + ",  "
+    
+    // Display previous scores
+    prevScoresEl.textContent += prevScoreStr
+  
+    // Reset counters
     displayAwayScore.textContent = 0
-
     displayHomeScore.textContent = 0
 
+    // Reset Count
     homeCount = 0;
     awayCount = 0;
 }
