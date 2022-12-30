@@ -69,4 +69,18 @@ body {
     padding: 0.7em 1.2em;
 }
 
+.prev-scores__container {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    border: 3px red solid;
+    margin-top: 3em;
+    color: white;
+}
+
+.prev-scores__title {
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
 
