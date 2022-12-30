@@ -6,6 +6,7 @@ let displayAwayScore = document.getElementById("score__el--guest")
 let homeCount = 0
 let awayCount = 0
 
+// Home button increment functions
 function homePlusOne() {
   homeCount += 1;
   displayHomeScore.textContent= homeCount
@@ -19,4 +20,20 @@ function homePlusTwo() {
 function homePlusThree() {
   homeCount += 3;
   displayHomeScore.textContent = homeCount;
+}
+
+// Away button increment functions
+function awayPlusOne() {
+  awayCount += 1;
+  displayAwayScore.textContent = awayCount;
+}
+
+function awayPlusTwo() {
+  awayCount += 2;
+  displayAwayScore.textContent = awayCount;
+}
+
+function awayPlusThree() {
+  awayCount += 3;
+  displayAwayScore.textContent = awayCount;
 }
