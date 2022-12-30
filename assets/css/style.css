@@ -49,7 +49,7 @@ body {
   margin-top: 1em;
 }
 
-button {
+.score__btn {
    background: #1b244a;
    border:2px solid #9aabd8;
    padding: 0.7em;
@@ -58,10 +58,15 @@ button {
    cursor: pointer;
 }
 
-#button__container {
+#reset__container {
     margin: 0 auto;
     text-align: center;
     width: 10%;
+}
+
+.score__btn--reset {
+    text-transform: uppercase;
+    padding: 0.7em 1.2em;
 }
 
 
