@@ -37,3 +37,11 @@ function awayPlusThree() {
   awayCount += 3;
   displayAwayScore.textContent = awayCount;
 }
+
+// New Game function to reset scores
+
+function resetScores () {
+    displayAwayScore.textContent = 0
+
+    displayHomeScore.textContent = 0
+}
